@@ -11,4 +11,4 @@ deploy:
     secure: {PUT_YOUR_OWN_API_KEY_HERE}
   app: fast-refuge-79505
   on:
-    repo: akwanmtl/unittest-travis-heroku
+    repo: akwanmtl/github-travis-heroku
