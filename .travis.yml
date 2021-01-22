@@ -8,7 +8,7 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {PUT_YOUR_OWN_API_KEY_HERE}
+    secure: {b7a47c34d96b02452a9db77d97d098c717d4160f}
   app: fast-refuge-79505
   on:
     repo: akwanmtl/github-travis-heroku
