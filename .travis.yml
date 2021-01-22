@@ -7,6 +7,9 @@ cache:
   - node_modules
 deploy:
   provider: heroku
-  api_key: IwQLks9xQUpzAh5UUNBYfg
+  api_key:
+    secure: nUlNogO4MF+fST1owCh1Y260zURUnYO25Zi6uL0WsSGZ1pdFU6WaDub6oMrHYG8j8/+DBscxTKQ/fGDfc7NgvUno+/Msk6uBA3eSG3zSL/zr+O7qIqHVKKw2OVs+sjogKlaD8O8V0v5+bYWGM7j7FGxOFVOeRqayJo6K4x9zlfwOO0FvGwCYlLAbiVoxB7eSz0CnPcMM7p4X3kXf9czbNsNpiscnl7iEZZTA7BqJkwIoIXtWvc9ai/G298kB94L5ZiisrsdynShlug+4EF3SF2vQt4nJSMWv00g4jGfX8UYoFOuXETLcvqixiaREwe6ayXcDE+hE6pjnLQbSzQoAEDytQTD25joMg34rJWNKyjSZhYwdUPDjywHcVNe/PgWRNT9THwriK3Tr457r9lQvzeVr02euMU5PwwJAsgeevDkkusl11Wv7CDCa+BxCgYy0JzI0gjt8bLIoVkoBzu7KpmdTE2Auhg2eHvVi5Fu1X+xM6N58xF963qbyDL/0MmSQhawc5T43buFMJQqfV7fP7GXjtHr0xOxyh7scVnIUjREp6TNzsIbj9dHR68etsfRSZR6Xz4CrvxVe+dr3goUqH7sE8WAWAgFYiszEDDa6Y6VeQLEODsBHluQZqoJMUmx+na3lCe9qELifzQA7hYSzRJnYdSLdg0RrgHXIuOq9+ak=
   app: unittest-travis-heroku
+  on:
+    repo: akwanmtl/unittest-travis-heroku
   skip_cleanup: 'true'
