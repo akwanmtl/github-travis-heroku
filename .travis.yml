@@ -8,7 +8,8 @@ cache:
 deploy:
   provider: heroku
   api_key:
-    secure: {b7a47c34d96b02452a9db77d97d098c717d4160f}
-  app: fast-refuge-79505
+    secure: DMEXJd+XEzqOMISxXIhGdWPBz3/ulhYlYcQJ4vdzZN6Uf+aMCytQViije2sIK9VdaWz9kPlEfKtwOHJDh1tfjIXvQRggvWx3WzDFpE0iubVJOosgFrejVkXvCb/A5/gLDcTQ6/FEFnxYoi3bk0hlzTii1rygmvkh+wRb7ml1rb3HMe+GQof5DhTfau8RbJbHyPzo3b0F3D9O9FGv0GdYB6UYyJsoepOjNb2t7De4fkdEZbWFQLUV+9dL0tvb88qjvwJRja5bFaLl2gZXTqV8HvnDfEO1UoNisMOdyNzKqA0P4iRWu7HdOkMez/o3jaQqVthgLcEDC9/YBRrgZijnO+mpvFeww7OuVU4m4KMAdKDnMijM3DywNEqetO/eHgC344JDatXoBIYNRsm3xAiiZKo3HpJyoj5kLiIdnEwh67EuJsE+KpczqQKS5cTtJbrPAsFupR6kVfj1JQhs6mZ/EudUh1B5A4YY0os4P4C5t9d2depcY8gUmGMkN7gscOgCzxopfUuqAEvJ6M3ww7J0XZHELESc3JLKv6ekaSHYpfqh5MBrgQg3z/JQRSbCDTUQDZJWCZccWMj68d98BIHtvlghcW8YheU38WecLSzBozhE6huP/i9HrZxefWulv+0w1wy5NNT5AUJRfoLqQR/+ktwY1SsSRmVpAMbWezRqTd4=
+  app: unittest-travis-heroku
   on:
-    repo: akwanmtl/github-travis-heroku
+    repo: akwanmtl/unittest-travis-heroku
+  skip_cleanup: 'true'
